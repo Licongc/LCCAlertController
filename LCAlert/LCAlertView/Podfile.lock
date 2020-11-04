@@ -1,0 +1,16 @@
+PODS:
+  - LCCAlertController (0.0.1)
+
+DEPENDENCIES:
+  - LCCAlertController (from `../..`)
+
+EXTERNAL SOURCES:
+  LCCAlertController:
+    :path: "../.."
+
+SPEC CHECKSUMS:
+  LCCAlertController: 8ea428d29503510489ac001e48a4091a75302da7
+
+PODFILE CHECKSUM: e730d96f4e3c0836f3f6e163479e2425349e40cb
+
+COCOAPODS: 1.10.0

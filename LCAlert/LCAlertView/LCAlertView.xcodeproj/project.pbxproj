@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,10 +15,9 @@
 		00D4E17D2334CE4400FBDFAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D4E17C2334CE4400FBDFAB /* main.m */; };
 		00D4E1872334CE4400FBDFAB /* LCAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D4E1862334CE4400FBDFAB /* LCAlertViewTests.m */; };
 		00D4E1922334CE4400FBDFAB /* LCAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D4E1912334CE4400FBDFAB /* LCAlertViewUITests.m */; };
-		00D4E1A82334CE9000FBDFAB /* LCAlertAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D4E1A12334CE9000FBDFAB /* LCAlertAnimate.m */; };
-		00D4E1A92334CE9000FBDFAB /* LCAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D4E1A32334CE9000FBDFAB /* LCAlertAction.m */; };
-		00D4E1AA2334CE9000FBDFAB /* LCAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D4E1A52334CE9000FBDFAB /* LCAlertController.m */; };
-		00D4E1AB2334CE9000FBDFAB /* LCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D4E1A72334CE9000FBDFAB /* LCAlertView.m */; };
+		02122BA56825A9C67B4AEAA3 /* Pods_LCAlertViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306B6D95A326D5AD57CD42E0 /* Pods_LCAlertViewTests.framework */; };
+		844D104E80E956378DA8ECC2 /* Pods_LCAlertView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A982B3E9E6DD8DFA7FEB42E /* Pods_LCAlertView.framework */; };
+		93FAE556C6FA91412A7C16C3 /* Pods_LCAlertView_LCAlertViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069585D0C25D24FE2D14D078 /* Pods_LCAlertView_LCAlertViewUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,14 +54,15 @@
 		00D4E18D2334CE4400FBDFAB /* LCAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D4E1912334CE4400FBDFAB /* LCAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCAlertViewUITests.m; sourceTree = "<group>"; };
 		00D4E1932334CE4400FBDFAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00D4E1A02334CE9000FBDFAB /* LCAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCAlertController.h; sourceTree = "<group>"; };
-		00D4E1A12334CE9000FBDFAB /* LCAlertAnimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCAlertAnimate.m; sourceTree = "<group>"; };
-		00D4E1A22334CE9000FBDFAB /* LCAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCAlertView.h; sourceTree = "<group>"; };
-		00D4E1A32334CE9000FBDFAB /* LCAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCAlertAction.m; sourceTree = "<group>"; };
-		00D4E1A42334CE9000FBDFAB /* LCAlertAnimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCAlertAnimate.h; sourceTree = "<group>"; };
-		00D4E1A52334CE9000FBDFAB /* LCAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCAlertController.m; sourceTree = "<group>"; };
-		00D4E1A62334CE9000FBDFAB /* LCAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCAlertAction.h; sourceTree = "<group>"; };
-		00D4E1A72334CE9000FBDFAB /* LCAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCAlertView.m; sourceTree = "<group>"; };
+		069585D0C25D24FE2D14D078 /* Pods_LCAlertView_LCAlertViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCAlertView_LCAlertViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		306B6D95A326D5AD57CD42E0 /* Pods_LCAlertViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCAlertViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A982B3E9E6DD8DFA7FEB42E /* Pods_LCAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A014126973632F14F1B6E4F /* Pods-LCAlertViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCAlertViewTests.release.xcconfig"; path = "Target Support Files/Pods-LCAlertViewTests/Pods-LCAlertViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		7B1DDB2A99DD3A7697109A0A /* Pods-LCAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCAlertView.debug.xcconfig"; path = "Target Support Files/Pods-LCAlertView/Pods-LCAlertView.debug.xcconfig"; sourceTree = "<group>"; };
+		817E35D3077D58F2B1EB8662 /* Pods-LCAlertView-LCAlertViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCAlertView-LCAlertViewUITests.release.xcconfig"; path = "Target Support Files/Pods-LCAlertView-LCAlertViewUITests/Pods-LCAlertView-LCAlertViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9E3A385E32E93560EE8807AE /* Pods-LCAlertView-LCAlertViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCAlertView-LCAlertViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-LCAlertView-LCAlertViewUITests/Pods-LCAlertView-LCAlertViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE270BB170317EEC7628854F /* Pods-LCAlertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCAlertView.release.xcconfig"; path = "Target Support Files/Pods-LCAlertView/Pods-LCAlertView.release.xcconfig"; sourceTree = "<group>"; };
+		B5779C6CC6BC2AC0D7DE8E36 /* Pods-LCAlertViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCAlertViewTests.debug.xcconfig"; path = "Target Support Files/Pods-LCAlertViewTests/Pods-LCAlertViewTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844D104E80E956378DA8ECC2 /* Pods_LCAlertView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02122BA56825A9C67B4AEAA3 /* Pods_LCAlertViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93FAE556C6FA91412A7C16C3 /* Pods_LCAlertView_LCAlertViewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +100,8 @@
 				00D4E1852334CE4400FBDFAB /* LCAlertViewTests */,
 				00D4E1902334CE4400FBDFAB /* LCAlertViewUITests */,
 				00D4E16B2334CE3F00FBDFAB /* Products */,
+				4180A17697A56CC61FF0A344 /* Pods */,
+				1C2B31D20C1116A077AFBB03 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,7 +118,6 @@
 		00D4E16C2334CE4000FBDFAB /* LCAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				00D4E19F2334CE9000FBDFAB /* LCAlert */,
 				00D4E16D2334CE4000FBDFAB /* AppDelegate.h */,
 				00D4E16E2334CE4000FBDFAB /* AppDelegate.m */,
 				00D4E1702334CE4000FBDFAB /* ViewController.h */,
@@ -145,19 +149,27 @@
 			path = LCAlertViewUITests;
 			sourceTree = "<group>";
 		};
-		00D4E19F2334CE9000FBDFAB /* LCAlert */ = {
+		1C2B31D20C1116A077AFBB03 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				00D4E1A02334CE9000FBDFAB /* LCAlertController.h */,
-				00D4E1A52334CE9000FBDFAB /* LCAlertController.m */,
-				00D4E1A42334CE9000FBDFAB /* LCAlertAnimate.h */,
-				00D4E1A12334CE9000FBDFAB /* LCAlertAnimate.m */,
-				00D4E1A62334CE9000FBDFAB /* LCAlertAction.h */,
-				00D4E1A32334CE9000FBDFAB /* LCAlertAction.m */,
-				00D4E1A22334CE9000FBDFAB /* LCAlertView.h */,
-				00D4E1A72334CE9000FBDFAB /* LCAlertView.m */,
+				5A982B3E9E6DD8DFA7FEB42E /* Pods_LCAlertView.framework */,
+				069585D0C25D24FE2D14D078 /* Pods_LCAlertView_LCAlertViewUITests.framework */,
+				306B6D95A326D5AD57CD42E0 /* Pods_LCAlertViewTests.framework */,
 			);
-			path = LCAlert;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4180A17697A56CC61FF0A344 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B1DDB2A99DD3A7697109A0A /* Pods-LCAlertView.debug.xcconfig */,
+				AE270BB170317EEC7628854F /* Pods-LCAlertView.release.xcconfig */,
+				9E3A385E32E93560EE8807AE /* Pods-LCAlertView-LCAlertViewUITests.debug.xcconfig */,
+				817E35D3077D58F2B1EB8662 /* Pods-LCAlertView-LCAlertViewUITests.release.xcconfig */,
+				B5779C6CC6BC2AC0D7DE8E36 /* Pods-LCAlertViewTests.debug.xcconfig */,
+				7A014126973632F14F1B6E4F /* Pods-LCAlertViewTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00D4E1962334CE4400FBDFAB /* Build configuration list for PBXNativeTarget "LCAlertView" */;
 			buildPhases = (
+				B0B297AD8F3CF65F0278DE5D /* [CP] Check Pods Manifest.lock */,
 				00D4E1662334CE3F00FBDFAB /* Sources */,
 				00D4E1672334CE3F00FBDFAB /* Frameworks */,
 				00D4E1682334CE3F00FBDFAB /* Resources */,
+				8C6CC9664520DA893CC608C6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -184,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00D4E1992334CE4400FBDFAB /* Build configuration list for PBXNativeTarget "LCAlertViewTests" */;
 			buildPhases = (
+				BACB6905FDF08F97AB1658B1 /* [CP] Check Pods Manifest.lock */,
 				00D4E17E2334CE4400FBDFAB /* Sources */,
 				00D4E17F2334CE4400FBDFAB /* Frameworks */,
 				00D4E1802334CE4400FBDFAB /* Resources */,
@@ -202,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00D4E19C2334CE4400FBDFAB /* Build configuration list for PBXNativeTarget "LCAlertViewUITests" */;
 			buildPhases = (
+				32CBD10603589C28344C5141 /* [CP] Check Pods Manifest.lock */,
 				00D4E1892334CE4400FBDFAB /* Sources */,
 				00D4E18A2334CE4400FBDFAB /* Frameworks */,
 				00D4E18B2334CE4400FBDFAB /* Resources */,
+				8F63863CA2425F159EADFA74 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -285,18 +302,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32CBD10603589C28344C5141 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LCAlertView-LCAlertViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C6CC9664520DA893CC608C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LCAlertView/Pods-LCAlertView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LCAlertView/Pods-LCAlertView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LCAlertView/Pods-LCAlertView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F63863CA2425F159EADFA74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LCAlertView-LCAlertViewUITests/Pods-LCAlertView-LCAlertViewUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LCAlertView-LCAlertViewUITests/Pods-LCAlertView-LCAlertViewUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LCAlertView-LCAlertViewUITests/Pods-LCAlertView-LCAlertViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0B297AD8F3CF65F0278DE5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LCAlertView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BACB6905FDF08F97AB1658B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LCAlertViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		00D4E1662334CE3F00FBDFAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				00D4E1722334CE4000FBDFAB /* ViewController.m in Sources */,
-				00D4E1AB2334CE9000FBDFAB /* LCAlertView.m in Sources */,
-				00D4E1A92334CE9000FBDFAB /* LCAlertAction.m in Sources */,
 				00D4E17D2334CE4400FBDFAB /* main.m in Sources */,
 				00D4E16F2334CE4000FBDFAB /* AppDelegate.m in Sources */,
-				00D4E1A82334CE9000FBDFAB /* LCAlertAnimate.m in Sources */,
-				00D4E1AA2334CE9000FBDFAB /* LCAlertController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +581,7 @@
 		};
 		00D4E1972334CE4400FBDFAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B1DDB2A99DD3A7697109A0A /* Pods-LCAlertView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +600,7 @@
 		};
 		00D4E1982334CE4400FBDFAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE270BB170317EEC7628854F /* Pods-LCAlertView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +619,7 @@
 		};
 		00D4E19A2334CE4400FBDFAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5779C6CC6BC2AC0D7DE8E36 /* Pods-LCAlertViewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -520,6 +639,7 @@
 		};
 		00D4E19B2334CE4400FBDFAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A014126973632F14F1B6E4F /* Pods-LCAlertViewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +659,7 @@
 		};
 		00D4E19D2334CE4400FBDFAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E3A385E32E93560EE8807AE /* Pods-LCAlertView-LCAlertViewUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WW9TZ99FYR;
@@ -557,6 +678,7 @@
 		};
 		00D4E19E2334CE4400FBDFAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 817E35D3077D58F2B1EB8662 /* Pods-LCAlertView-LCAlertViewUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WW9TZ99FYR;

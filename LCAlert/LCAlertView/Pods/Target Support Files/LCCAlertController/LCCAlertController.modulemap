@@ -1,0 +1,6 @@
+framework module LCCAlertController {
+  umbrella header "LCCAlertController-umbrella.h"
+
+  export *
+  module * { export * }
+}
