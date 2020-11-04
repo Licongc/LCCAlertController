@@ -2,15 +2,15 @@ PODS:
   - LCCAlertController (0.0.1)
 
 DEPENDENCIES:
-  - LCCAlertController (from `../..`)
+  - LCCAlertController
 
-EXTERNAL SOURCES:
-  LCCAlertController:
-    :path: "../.."
+SPEC REPOS:
+  trunk:
+    - LCCAlertController
 
 SPEC CHECKSUMS:
-  LCCAlertController: 8ea428d29503510489ac001e48a4091a75302da7
+  LCCAlertController: 48560a0675f0d087cab0a98b517023a265db083d
 
-PODFILE CHECKSUM: e730d96f4e3c0836f3f6e163479e2425349e40cb
+PODFILE CHECKSUM: 515326ec4be6d1a5d85e3cba8df6e315d47fc416
 
 COCOAPODS: 1.10.0
