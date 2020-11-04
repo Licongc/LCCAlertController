@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   A short description of LCAlertController.
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/LCAlertController"
+  spec.homepage     = "https://cocoapods.org/pods/LCCAlertController"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
